@@ -1,0 +1,193 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macy's: The Style Stalwart</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            background-color: #F5F5F5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #9AB5A7;
+            padding: 10px;
+            text-align: left;
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+            padding-left: 15px;
+        }
+        nav {
+            background-color: #91A497;
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 200px;
+            background-color: #F5F5F5;
+            padding: 10px;
+            border-right: 1px solid #ccc;
+            text-align: left;
+        }
+        .sidebar h3 {
+            font-size: 12px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .sidebar input[type="text"], 
+        .sidebar input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            font-size: 12px;
+        }
+        .sidebar button {
+            background-color: #609083;
+            color: white;
+            border: none;
+            padding: 5px;
+            width: 100%;
+            font-size: 12px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .promo-section img {
+            max-width: 100%;
+        }
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .main-content h1 {
+            font-size: 16px;
+            color: #333;
+            font-weight: normal;
+        }
+        .main-content p {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        .banner img {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        /* Virtual Value Sidebar (Right) */
+        .right-sidebar {
+            width: 200px;
+            background-color: #F5F5F5;
+            padding: 10px;
+            text-align: center;
+            border-left: 1px solid #ccc;
+        }
+        .right-sidebar img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #91A497;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Welcome to Macys.Com
+    </header>
+
+    <nav>
+        <a href="#">shop by department</a>
+        <a href="#">men's</a>
+        <a href="#">women's</a>
+        <a href="#">young attitude</a>
+        <a href="#">jewelry</a>
+        <a href="#">lingerie</a>
+        <a href="#">cosmetics</a>
+        <a href="#">fragrance</a>
+        <a href="#">what'shot</a>
+    </nav>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>macys.com</h3>
+            <input type="text" placeholder="keyword search">
+            <button>SUBMIT</button>
+            
+            <h3>give us your email</h3>
+            <input type="text" placeholder="enter email">
+            <button>SUBMIT</button>
+
+            <h3>e club sign-in</h3>
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+            <button>Log In</button>
+
+            <div class="promo-section">
+                <h3>bridal registry</h3>
+                <img src="bridal_registry.png" alt="Bridal Registry">
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="banner">
+                <img src="party_banner.jpg" alt="Party of the Century 2000">
+                <p style="text-align:center; font-size:14px;">Get ready for the party of the century!</p>
+            </div>
+
+            <h1>Here's the skivvie! 25% off Calvin Klein underwear.</h1>
+            <p>
+                Macys.com is offering 25% off Calvin Klein underwear for a limited time. Be sure to grab your favorite styles!
+            </p>
+        </div>
+
+        <!-- Right Sidebar (Virtual Value Section) -->
+        <div class="right-sidebar">
+            <img src="slippers.jpeg" alt="Wild Things">
+            <p>Snuggle up at home with these fun, fuzzy slippers. Steve Madden Fuzz Slipper, $29.99</p>
+
+            <div class="promo-section">
+                <h3>What's New</h3>
+                <p>Check out what's new at macys.com. Discover everything!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2000 Macy's. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+
+
